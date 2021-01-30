@@ -160,16 +160,18 @@ img.image-enhanced {
 }
 
 /* ---  About Settings --- */
+
 .about-header {
  display: flex;
   flex-direction: center;
   flex-wrap: nowrap;
   justify-content: center;
+  color: 	#ffffff;
   background-color:  #9c0202;
 }
 
 .about {
-  color: white;
+  color: 	#ffffff;
   background-color: #9c0202;
 }
 
