@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
     <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
@@ -38,34 +38,44 @@
 
 
         <main>
-            <div class="main-intro"> 
+            <div class="container main-intro"> 
       
-              <div class="container intro-sec">
-                <div class="intro-img "> 
-        
-                  <img class="image-self" src="./images/photo-of-me.jpg" width="700" alt="where-is-my-image" />
-                  <img class="image-util" src="./images/photo-of-me.jpg" width="500" alt="where-is-my-image" />
-                </div>
-                <div class="intro-text">
-        
-                  
-                    <p><b>Current Location:</b> San Antonio, Tx.</p>
-                    <b>Professions:</b>
-                    <p> Software Engineer</p>
-                    <p>Web Developer</p>
-                    <p>Graphic Design</p>
-                    <p><b>Age:</b> 27</p>
-        
-                    <a href="https://github.com/Dillon-developer" class="btn btn-dark">GitHub</a>
-                    <a href="https://www.linkedin.com/in/dillon-lucas-949bb8175/" class="btn btn-primary">LinkedIn</a>
-                </div>
+              <div class="intro-sec">
+               
+                <div class="row">
+
+                
+                 <div class="intro-img col "> 
+                  <div class="row">
+
+                    <img class="image-self " src="./images/photo-of-me.jpg" width="70%" height="90%" alt="where-is-my-image" />
+                    
+                  </div>
+                 </div>
+                 <div class="intro-text col">
+         
+                     <b>Current Location:</b>
+                     <p> San Antonio, Tx.</p>
+                     <b>Professions:</b>
+                     <p> Software Engineer</p>
+                     <p>Web Developer</p>
+                     <p>Graphic Design</p>
+                     <p><b>Age:</b> 27</p>
+                     
+                     <a href="https://github.com/Dillon-developer" class="col btn btn-dark col-10">GitHub</a>
+                     <a href="https://www.linkedin.com/in/dillon-lucas-949bb8175/" class="col btn btn-primary col-10">LinkedIn</a>
+                    </div>
+                  </div>
+                </div> 
               </div>
-            </div>
-            
+              
+              <div class="row">
+
+              </div>             
       
               
             <!--creating list-->
-            <div class="main-body col-12">
+            <div class="main-body">
       
               <div>
         
@@ -76,10 +86,13 @@
              <div class="container">
       
                <div class="dog-mayo">
-                 <img class="animate stage1" src="./images/mayo1.JPG" width="500" alt="where-is-my-image" />
-                 <img class="animate stage2" src="./images/mayo2.JPG" width="500" alt="where-is-my-image" />
-                 <img class="animate stage3" src="./images/mayo3.JPG" width="500" alt="where-is-my-image" />
-                 <img class="animate stage4" src="./images/mayo4.JPG" width="500" alt="where-is-my-image" />
+                 <div class="row">
+
+                   <img class="animate stage1 col-3" src="./images/mayo1.JPG"  alt="where-is-my-image" />
+                   <img class="animate stage2 col-3" src="./images/mayo2.JPG"  alt="where-is-my-image" />
+                   <img class="animate stage3 col-3" src="./images/mayo3.JPG"  alt="where-is-my-image" />
+                   <img class="animate stage4 col-3" src="./images/mayo4.JPG"  alt="where-is-my-image" />
+                 </div>
                </div>
                <div class="body-text col-12">
                  
@@ -93,9 +106,13 @@
              </div> 
               <!--creating list-->
               <div class="end-dogs">
+                <div class=" d-flex  justify-content-center">
+
+                  <!--<img class="image-dog-emo col-12" src="./images/emo.JPG" height="50%" alt="where-is-my-image" />-->
+                  
+                </div>
+
         
-                <img class="image-dog-emo" src="./images/emo.JPG" width="500" alt="where-is-my-image" />
-                <img class="image-cat-kya" src="./images/kya2.jpg" width="1200" alt="where-is-my-image" />
               </div>
             </div>
       
