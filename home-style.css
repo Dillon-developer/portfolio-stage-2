@@ -126,6 +126,10 @@ main {
     display: flex;
     flex-direction: column;
   }
+  .image-img {
+    display:flex;
+    width: 80%;
+  }
 }
 
 
