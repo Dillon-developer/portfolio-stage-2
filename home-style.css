@@ -1,12 +1,13 @@
 
 main {
-  background-color: rgb(47, 47, 47);
-}
+  background-color: rgb(255, 255, 255);
+}  
+  
 .start {
   display: flex;
   flex-wrap: nowrap;
   font-size: 100%;
-  background-color:rgb(148, 148, 148);
+  background-color:rgb(255, 255, 255);
   padding: 5em;
 }
 
